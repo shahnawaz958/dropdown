@@ -1,0 +1,96 @@
+body{ 
+    
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: brown;
+
+}
+.flex-container{
+    display: flex;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline;
+    margin-left: 50px;
+
+}
+header ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
+.left-header{
+    flex: 20%;
+    text-align: left;
+    display: inline;
+}
+.right-header{
+    flex: 80%;
+    text-align: right;
+    transition: 2s all;
+    ;
+    display: inline;
+    
+    
+
+}
+/* Nav css start here */
+nav{
+    margin: 0;
+    background-color: aqua;
+}
+.left-nav{
+    flex: 10%;
+    text-align: center;
+    background-color: rgb(160, 136, 160);
+}
+.left-nav h1 {
+    color: whitesmoke;
+    font-size: 33px;
+    display: inline;
+}
+.right-nav{
+    flex: 50%;
+    text-align: center;
+    display: inline;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 800;
+    color: rgb(75, 7, 7);
+    transition: 2s all;
+}
+.menu .dropdown{
+    position: absolute;
+    height: auto;
+    width: 100px;
+    left: 62%;
+    display: none;
+    line-height: 30px;
+    box-shadow: 10px 10px;
+    background-color: aqua;
+
+}
+.menu:hover .dropdown{
+    display: block;
+}
+.shahnawaz{
+    margin: 0;
+    background-color: aquamarine;
+    height: 500px;
+    background-image: url(/assets/images/wp2590522.jpg);
+}
